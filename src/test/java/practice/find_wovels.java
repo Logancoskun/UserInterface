@@ -19,5 +19,6 @@ public class find_wovels {
         }
         System.out.println("Total vowels: " + vowelCount);
 
+
     }
 }

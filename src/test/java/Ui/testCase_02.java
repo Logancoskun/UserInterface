@@ -62,5 +62,6 @@ public class testCase_02 {
 
          WebElement accountVisible = driver.findElement(By.xpath("//*[contains(text(), 'Account Deleted!')]"));
          accountVisible.isDisplayed();
+         driver.close();
     }
 }

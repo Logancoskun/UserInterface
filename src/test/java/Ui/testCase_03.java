@@ -66,5 +66,6 @@ public class testCase_03 {
         driver.findElement(By.xpath("//*[contains(text(),'Your email or password is incorrect!')]")).isDisplayed();
         //verify.isDisplayed();
         System.out.println(verify.isDisplayed());
+        driver.close();
     }
 }
